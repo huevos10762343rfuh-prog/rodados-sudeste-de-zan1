@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(200, 0, 0);
+    color: black;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+}
+.grid{
+    align-items: center;
+    background-color: white;
+    grid-template-rows: repeat(1fr, 3);
+    padding: 15px;
+    margin: 15px;
+}
+form{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.iniciarsesion{
+    align-items: baseline;
+    justify-content: baseline;
+    
+}
