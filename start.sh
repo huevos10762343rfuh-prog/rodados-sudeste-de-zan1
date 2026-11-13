@@ -23,7 +23,7 @@ until mariadb-admin --socket=/run/mysqld/mysqld.sock ping --silent; do
     sleep 2
 done
 
-echo "MariaDB iniciado correctamente."
+echo " iniciado db correctamente."
 
 DB_NAME="${DB_NAME:-autos}"
 DB_USER="${DB_USER:-usuario_php}"
